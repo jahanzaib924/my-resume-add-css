@@ -1,0 +1,29 @@
+.container{
+    position: relative;
+    left: 25%;
+    background-color: azure;
+    width: 600px;
+    display:flex ;
+}
+.pic{
+    background-color: lightgray;
+    width: 200px;
+    justify-content: space-around;
+    padding: 10px;
+}
+.image img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.image h3{
+    margin-left: 10px;
+}
+.details{
+    padding: 20px;
+    justify-items: baseline;
+
+}
+.details .inform table,th{
+    border: 1px solid black;
+}
